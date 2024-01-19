@@ -1,0 +1,16 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 220px);
+  gap: 40px;
+  padding: 40px;
+  justify-content: center;
+}
+
+.title {
+}
+
+@media (max-width: 560px) {
+  .container {
+    grid-template-columns: 100%;
+  }
+}
